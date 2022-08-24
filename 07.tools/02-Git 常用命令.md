@@ -28,8 +28,23 @@ git clone默认clone master分支，如果仓库没有master分支，则会拉�
 
 ## 4、本地创建分支推送至远程
 
-- checkout至新建分支 branch_new
-- **git push origin branch_new**
+**git push** 命令用于从将本地的分支版本上传到远程并合并，大致分为两种情况。
+
+(1) 本地分支名与远程分支名不同
+
+- git push <远程主机名> <本地分支名>:<远程分支名>
+
+(2) 本地分支名与远程分支名相同，则可以省略**冒号**：
+
+- git push <远程主机名> <本地分支名>
+
+
+
+**注意点：**
+
+- <远程主机名> 一般为 **origin**；
+
+- push的时候没有必要checkout至需要push的本地分支，在master分支直接执行上述语句即可。
 
 
 
