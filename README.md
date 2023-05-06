@@ -20,16 +20,38 @@
 
 ## 👏 Contributing
 
+### Clone the repo
+
+克隆本仓库到本地
+
+```git
+git clone --recursive git@github.com:six-double-seven/2023interview.git
+```
+
 ### Create a branch
 
 1. 本地仓库切换至master分支
-   - git checkout master
+
+```git
+   git checkout master
+```
+
 2. 拉取master分支最新代码
-   - [git pull origin master or git pull](https://blog.csdn.net/qq_41306423/article/details/101701991)
+
+[git pull origin master or git pull](https://blog.csdn.net/qq_41306423/article/details/101701991)
+
 3. 创建feature分支
-   - git checkout -b **feature/20220817/xxx**
+
+```git
+   git checkout -b **feature/20220817/xxx**
+```
+
 4. 将本地创建的feaure分支推送至远端
-   - git push origin feature/20220817/lqq
+
+```git
+   git push origin feature/20220817/lqq
+```
+
 
 ### Make the change
 
