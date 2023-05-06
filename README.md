@@ -25,7 +25,7 @@
 1. 本地仓库切换至master分支
    - git checkout master
 2. 拉取master分支最新代码
-   - [git pull origin maser or git pull](https://blog.csdn.net/qq_41306423/article/details/101701991)
+   - [git pull origin master or git pull](https://blog.csdn.net/qq_41306423/article/details/101701991)
 3. 创建feature分支
    - git checkout -b **feature/20220817/xxx**
 4. 将本地创建的feaure分支推送至远端
